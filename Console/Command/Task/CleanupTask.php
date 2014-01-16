@@ -54,7 +54,6 @@ class CleanupTask extends AppShell {
  */
 	public function execute() {
 		Configure::write('debug', $this->params['debug']);
-diebug($this);
 		if ($this->params['action'] == 'clean') {
 			$column = 'failed_at';
 		} elseif ($this->params['action'] == 'unlock') {
@@ -83,7 +82,7 @@ diebug($this);
 		$JobModel = ClassRegistry::init('Job');
 		$jobs = $JobModel->find('all', compact('conditions'));
 		foreach ($jobs as $job) {
-			switch ($this->_action) {
+			switch ($this->params['action']) {
 				case 'unlock':
 					$job['Job']['locked_at'] = null;
 					$job['Job']['locked_by'] = null;
