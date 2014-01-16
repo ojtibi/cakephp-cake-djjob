@@ -1,0 +1,23 @@
+{
+    "name": "ojtibi/cakephp-cake-djjob",
+    "description": "A fork from josegonzalez/cakephp-cake-djjob, removes debugging code and fixes some console tasks.",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "extra": {
+        "installer-name": "CakeDjjob"
+    },
+    "authors": [
+        {
+            "name": "Jose Diaz-Gonzalez",
+            "email": "email@josediazgonzalez.com"
+        },
+        {
+            "name": "OJ Tibi",
+            "email": "ojtibi@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+        "seatgeek/djjob": "dev-master"
+    }
+}
