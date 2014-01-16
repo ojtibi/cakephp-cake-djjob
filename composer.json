@@ -6,24 +6,17 @@
     "extra": {
         "installer-name": "CakeDjjob"
     },
-    "authors": [
-        {
-            "name": "Jose Diaz-Gonzalez",
-            "email": "email@josediazgonzalez.com"
-        },
-        {
-            "name": "OJ Tibi",
-            "email": "ojtibi@gmail.com"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/seatgeek/djjob.git"
-        }
-    ],
+    "authors": [{
+        "name": "Jose Diaz-Gonzalez",
+        "email": "email@josediazgonzalez.com"
+    }, {
+        "name": "OJ Tibi",
+        "email": "ojtibi@gmail.com"
+    }],
     "require": {
-        "composer/installers": "~1.0",
-        "seatgeek/djjob": "dev-master"
+        "composer/installers": "~1.0"
+    },
+    "suggest": {
+        "seatgeek/djjob": "Core DJJob functionality (GitHub-only install)"
     }
 }
