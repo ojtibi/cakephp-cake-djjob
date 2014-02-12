@@ -1,7 +1,7 @@
 <?php
 App::uses('ConnectionManager', 'Model');
 App::uses('CakeJob', 'CakeDjjob.Job');
-App::import('Vendor', 'DJJob', array('file' => 'seatgeek/djjob/DJJob.php'));
+App::import('Vendor', 'DJJob', array('file' => 'ojtibi/djjob/DJJob.php'));
 
 /**
  * CakeDjjob Model Behavior
