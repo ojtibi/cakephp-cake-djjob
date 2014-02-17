@@ -1,6 +1,6 @@
 <?php
 App::uses('CakeJob', 'CakeDjjob.Job');
-App::import('Vendor', 'DJJob', array('file' => 'seatgeek/djjob/DJJob.php'));
+App::import('Vendor', 'DJJob', array('file' => 'ojtibi/djjob/DJJob.php'));
 App::uses('CakeEmail', 'Network/Email');
 
 /**

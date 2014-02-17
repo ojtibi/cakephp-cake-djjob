@@ -2,7 +2,7 @@
 App::uses('AppShell', 'Console/Command');
 App::uses('ConnectionManager', 'Model');
 App::uses('CakeJob', 'CakeDjjob.Job');
-App::import('Vendor', 'DJJob', array('file' => 'seatgeek/djjob/DJJob.php'));
+App::import('Vendor', 'DJJob', array('file' => 'ojtibi/djjob/DJJob.php'));
 
 /**
  * Convenience method to unserialize CakeDjjob classes properly
