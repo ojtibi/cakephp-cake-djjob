@@ -17,6 +17,6 @@
         "composer/installers": "~1.0"
     },
     "suggest": {
-        "seatgeek/djjob": "Core DJJob functionality (GitHub-only install)"
+        "ojtibi/djjob": "Core DJJob functionality (GitHub-only install)"
     }
 }
